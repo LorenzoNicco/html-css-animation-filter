@@ -156,3 +156,107 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white{
+    animation-name: ex12A;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex12A{
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    50% {
+        top: -10px;
+        left: 60%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-12-bottom-white{
+    animation-name: ex12B;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex12B{
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    50% {
+        bottom: -10px;
+        right: 60%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+.ex-13-top-white{
+    animation-name: ex13A;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex13A{
+    0% {
+        top: -10px;
+        left: -10%;
+    }
+    25% {
+        top: -10px;
+        left: 90%;
+    }
+    50% {
+        top: 60px;
+        left: 60%;
+    }
+    75% {
+        top: 60px;
+        left: -10%;
+    }
+    100% {
+        top: -10px;
+        left: -10%;
+    }
+}
+
+.ex-13-bottom-white{
+    animation-name: ex13B;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex13B{
+    0% {
+        bottom: -10px;
+        right: -10%;
+    }
+    25% {
+        bottom: -10px;
+        right: 90%;
+    }
+    50% {
+        bottom: 60px;
+        right: 90%;
+    }
+    75% {
+        bottom: 60px;
+        right: -10%;
+    }
+    100% {
+        bottom: -10px;
+        right: -10%;
+    }
+}
